@@ -46,25 +46,34 @@
                         </div>
                     </div>
                     {% endif %}
-
-                    {% if site.data.profile.awards %}
+                    {% if site.data.profile.publication_progress %}
                     <div class="col-lg-6">
-                        <div class="mx-2 my-1">
-                            <h6>Honors & Awards</h6>
-                            <ul class="list small pl-3 mb-1">
-                                {% for item in site.data.profile.awards %}
-                                <li>
-                                    <div class="d-flex">
-                                        <div>{{ item.name }}</div>
-                                        <div class="ml-auto mt-auto no-break"><em>{{ item.date }}</em></div>
-                                    </div>
-                                </li>
-                                {% endfor %}
-                            </ul>
+                        <div class="mx-2 my-1 publication-progress-list">
+                            <h6>Publication Progress</h6>
+                            {% for item in site.data.profile.publication_progress %}
+                            <div class="publication-progress-item">
+                                <div class="publication-progress-head">
+                                    <span class="publication-progress-name">{{ item.name }}</span>
+                                    <span class="publication-progress-count">
+                                        {{ item.current }}{% if item.total %} / {{ item.total }}{% else %} / no cap{% endif %}
+                                    </span>
+                                </div>
+                                <div class="progress publication-progress-track">
+                                    {% if item.total %}
+                                    {% assign progress_percent = item.current | times: 100 | divided_by: item.total %}
+                                    <div class="progress-bar publication-progress-fill publication-progress-fill-a" role="progressbar" style="width: {{ progress_percent }}%;" aria-valuenow="{{ item.current }}" aria-valuemin="0" aria-valuemax="{{ item.total }}"></div>
+                                    {% else %}
+                                    <div class="progress-bar progress-bar-striped publication-progress-fill publication-progress-fill-open publication-progress-fill-b" role="img" style="width: 100%;" aria-label="{{ item.name }}: {{ item.current }} papers, no total cap"></div>
+                                    {% endif %}
+                                </div>
+                                {% unless item.total %}
+                                <div class="publication-progress-caption">{% if item.caption %}{{ item.caption }}{% else %}Open-ended target{% endif %}</div>
+                                {% endunless %}
+                            </div>
+                            {% endfor %}
                         </div>
                     </div>
                     {% endif %}
-
                 </div>
 
             </div>
