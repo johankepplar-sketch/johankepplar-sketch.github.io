@@ -143,6 +143,12 @@ div.lazy {
     background-size: 0.9rem 0.9rem;
 }
 
+.publication-progress-fill-writing {
+    background-color: #b45f06;
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.18) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.18) 50%, rgba(255, 255, 255, 0.18) 75%, transparent 75%, transparent);
+    background-size: 0.9rem 0.9rem;
+}
+
 .publication-progress-caption {
     color: #6c757d;
     font-size: 0.78rem;

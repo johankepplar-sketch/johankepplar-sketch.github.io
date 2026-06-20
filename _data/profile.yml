@@ -58,3 +58,8 @@ publication_progress:
 - name: CCF-B Papers
   current: 1
   caption: No cap
+- name: Writing
+  current: 3
+  count_label: '3'
+  caption: In progress
+  variant: writing

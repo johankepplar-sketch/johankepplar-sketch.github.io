@@ -55,7 +55,7 @@
                                 <div class="publication-progress-head">
                                     <span class="publication-progress-name">{{ item.name }}</span>
                                     <span class="publication-progress-count">
-                                        {{ item.current }}{% if item.total %} / {{ item.total }}{% else %} / no cap{% endif %}
+                                        {% if item.count_label %}{{ item.count_label }}{% else %}{{ item.current }}{% if item.total %} / {{ item.total }}{% else %} / no cap{% endif %}{% endif %}
                                     </span>
                                 </div>
                                 <div class="progress publication-progress-track">
@@ -63,7 +63,7 @@
                                     {% assign progress_percent = item.current | times: 100 | divided_by: item.total %}
                                     <div class="progress-bar publication-progress-fill publication-progress-fill-a" role="progressbar" style="width: {{ progress_percent }}%;" aria-valuenow="{{ item.current }}" aria-valuemin="0" aria-valuemax="{{ item.total }}"></div>
                                     {% else %}
-                                    <div class="progress-bar progress-bar-striped publication-progress-fill publication-progress-fill-open publication-progress-fill-b" role="img" style="width: 100%;" aria-label="{{ item.name }}: {{ item.current }} papers, no total cap"></div>
+                                    <div class="progress-bar progress-bar-striped publication-progress-fill publication-progress-fill-open {% if item.variant == "writing" %}publication-progress-fill-writing{% else %}publication-progress-fill-b{% endif %}" role="img" style="width: 100%;" aria-label="{{ item.name }}: {{ item.current }} papers{% if item.caption %}, {{ item.caption }}{% else %}, no total cap{% endif %}"></div>
                                     {% endif %}
                                 </div>
                                 {% unless item.total %}
