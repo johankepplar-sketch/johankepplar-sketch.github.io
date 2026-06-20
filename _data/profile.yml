@@ -6,7 +6,6 @@ positions:
 - name: Ph.D. Student in Computer Science
 - name: Xi'an Jiaotong University
 - name: Temporal Causal Reasoning, Scene Graph Generation, and 3D Vision
-  logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
 
 
 email: "johankepplar@gmail.com"
@@ -31,7 +30,7 @@ short_bio: >-
     as well as being common in domestic longhair and domestic shorthair cats.
   </p>
 
-portrait_url: /assets/images/photos/portrait.jpg
+portrait_url: /assets/images/photos/me.jpg
 
 education:
   - name: Xi'an Jiaotong University
