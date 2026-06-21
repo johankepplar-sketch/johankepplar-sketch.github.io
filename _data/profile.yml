@@ -55,12 +55,11 @@ education:
 publication_progress:
 - name: CCF-A Papers
   current: 2
+  count_label: '2'
   total: 10
 - name: CCF-B Papers
   current: 1
-  caption: No cap
 - name: Writing
   current: 3
   count_label: '3'
-  caption: In progress
   variant: writing

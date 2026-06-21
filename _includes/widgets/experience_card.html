@@ -66,9 +66,6 @@
                                     <div class="progress-bar progress-bar-striped publication-progress-fill publication-progress-fill-open {% if item.variant == "writing" %}publication-progress-fill-writing{% else %}publication-progress-fill-b{% endif %}" role="img" style="width: 100%;" aria-label="{{ item.name }}: {{ item.current }} papers{% if item.caption %}, {{ item.caption }}{% else %}, no total cap{% endif %}"></div>
                                     {% endif %}
                                 </div>
-                                {% unless item.total %}
-                                <div class="publication-progress-caption">{% if item.caption %}{{ item.caption }}{% else %}Open-ended target{% endif %}</div>
-                                {% endunless %}
                             </div>
                             {% endfor %}
                         </div>
