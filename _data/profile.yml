@@ -23,7 +23,7 @@ github: johankepplar-sketch
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am an early-stage explorer on the academic path, currently interested in Temporal Causal Reasoning, Scene Graph Generation, and 3D Vision. I enjoy thinking about how machines can understand not only what appears in a scene, but also how events unfold, why objects interact, and how structured representations can make visual reasoning more reliable. My short-term status is simple: sprinting toward AAAI. My long-term ambition is to become a "5A-per-year" researcher. Outside research, my MBTI tends to drift between INFP and ENFJ, and my favorite singer is Joker Xue.
+    I am an <strong>early-stage explorer</strong> on the academic path, currently interested in <strong>Temporal Causal Reasoning</strong>, <strong>Scene Graph Generation</strong>, and <strong>3D Vision</strong>. I enjoy thinking about how machines can understand not only what appears in a scene, but also how events unfold, why objects interact, and how structured representations can make visual reasoning more reliable. My short-term status is simple: <strong>sprinting toward AAAI</strong>. My long-term ambition is to become a <strong>"5A-per-year" researcher</strong>. Outside research, my MBTI tends to drift between INFP and ENFJ, and my favorite singer is <strong>Joker Xue</strong>.
   </p>
 
 portrait_url: /assets/images/photos/me.jpg
@@ -51,7 +51,7 @@ publication_progress:
 - name: CCF-A Papers
   current: 2
   count_label: '2'
-  total: 10
+  variant: ccf-a
 - name: CCF-B Papers
   current: 1
 - name: Writing
