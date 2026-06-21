@@ -3,16 +3,17 @@ secondary_name: ""
 navbar_name: "An evaporated Li"
 
 positions:
-- name: Ph.D. Student in Computer Science
+- name: Ph.D. Student · Computer Science
 - name: Xi'an Jiaotong University
-- name: Temporal Causal Reasoning, Scene Graph Generation, and 3D Vision
-
+- name: Temporal Causal Reasoning
+- name: Scene Graph Generation
+- name: 3D Vision
 
 email: "johankepplar@gmail.com"
 # cv_link: link-to-your-cv-file
 gscholar: xFmQpf4AAAAJ  # This is an example, replace it with your own Google Scholar ID
 github: johankepplar-sketch
-twitter: your_twitter_id  # Do not include the '@' symbol
+# twitter: your_twitter_id  # Do not include the '@' symbol
 # wechat_qrcode: /assets/images/etc/wechat.jpg
 # wechat_prompt: >-
 #   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
