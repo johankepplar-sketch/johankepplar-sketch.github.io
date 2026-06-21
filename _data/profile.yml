@@ -3,7 +3,7 @@ secondary_name: ""
 navbar_name: "An evaporated Li"
 
 positions:
-- name: Ph.D. Student · Computer Science
+- name: Ph.D. Student - Computer Science
 - name: Xi'an Jiaotong University
 - name: Temporal Causal Reasoning
 - name: Scene Graph Generation
@@ -23,14 +23,9 @@ github: johankepplar-sketch
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am a Ph.D. student in Computer Science at Xi'an Jiaotong University. My research focuses on building visual reasoning systems that can understand dynamic scenes through temporal structure, causal relations, and explicit scene representations. I am especially interested in how machines can move beyond recognizing isolated objects and learn to reason about events, interactions, and spatial-temporal changes in a more structured and interpretable way.
+    I am an early-stage explorer on the academic path, currently interested in Temporal Causal Reasoning, Scene Graph Generation, and 3D Vision. I enjoy thinking about how machines can understand not only what appears in a scene, but also how events unfold, why objects interact, and how structured representations can make visual reasoning more reliable. My short-term status is simple: sprinting toward AAAI. My long-term ambition is to become a "5A-per-year" researcher. Outside research, my MBTI tends to drift between INFP and ENFJ, and my favorite singer is Joker Xue.
   </p>
-  <ul class="mb-0">
-    <li><strong>Temporal Causal Reasoning:</strong> modeling how events evolve over time and how causal dependencies shape visual understanding.</li>
-    <li><strong>Scene Graph Generation:</strong> extracting object-relation structures that support compositional reasoning and downstream decision making.</li>
-    <li><strong>3D Vision:</strong> connecting visual perception with spatial structure for robust scene understanding.</li>
-    <li><strong>Research Goal:</strong> developing interpretable, generalizable, and publication-quality methods for complex visual reasoning tasks.</li>
-  </ul>
+
 portrait_url: /assets/images/photos/me.jpg
 
 education:
